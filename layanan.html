@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Lentera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="container header-flex">
+            <div class="branding">
+                <h1>Perpustakaan Lentera</h1>
+            </div>
+
+            <nav aria-label="Navigasi Utama">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="koleksi.html">Koleksi</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- ===== LAYANAN ===== -->
+<section id="layanan" class="section">
+    <div class="container">
+        <h2>Layanan Perpustakaan</h2>
+
+        <article class="service-item">
+            <h3>Katalog Pencarian Buku</h3>
+            <p>
+                Telusuri koleksi buku kami secara digital. Gunakan kolom pencarian
+                untuk menemukan judul, penulis, atau kategori buku yang kamu butuhkan.
+            </p>
+            <a href="#search" class="btn">Cari Buku di Menu Koleksi</a>
+        </article>
+
+        <article class="service-item">
+            <h3>Peminjaman Buku</h3>
+            <p>
+                Anggota dapat meminjam buku atau materi lainnya langsung
+                dari perpustakaan dengan melihat klasifikasi buku yang 
+                tertera pada rak koleksi saat ingin mencari buku.
+            </p>
+            <a href="#digital" class="btn">Layanan Sirkulasi</a>
+        </article>
+
+        <article class="service-item">
+            <h3>Informasi Event Literasi</h3>
+            <p>
+                Jadwal event bacaan, diskusi buku, workshop menulis, dan kegiatan
+                literasi lainnya akan dikabarkan langsung tanggalnya di sosial media.
+                Jangan sampai ketinggalan!
+            </p>
+            <a href="#events" class="btn">Lihat Event</a>
+        </article>
+
+    <section id="koleksi" class="section">
+        <div class="container">
+            <h2>Koleksi Unggulan</h2>
+
+                <div class="grid-3">
+                    <article class="card">
+                        <img src="image/ruang baca perpustakaan.jpeg" alt="Ruang Baca">
+                        <h3>Ruang baca</h3>
+                        <p>Ruang baca dengan kursi dan meja yang ergonomis, pencahayaan yang baik, serta suasana tenang membantu pengunjung fokus membaca atau belajar.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="image/loker perpustakaan.jpg" alt="Loker">
+                        <h3>Loker</h3>
+                        <p>Tempat penyimpanan barang pribadi memberi rasa aman dan nyaman bagi pengunjung.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="image/rak buku.jpeg" alt="Rak Buku">
+                        <h3>Rak Koleksi</h3>
+                        <p>Tersedia buku fiksi, nonfiksi, majalah, serta sumber digital yang memenuhi kebutuhan berbagai usia dan minat.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="image/mushola perpustakaan.JPG" alt="Mushola">
+                        <h3>Mushola</h3>
+                        <p>Membantu pengunjung untuk menjalankan shalat wajib atau doa secara rutin saat menghabiskan waktu lama di perpustakaan.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="image/toilet perpustakaan.jpeg" alt="Toilet">
+                        <h3>Toilet</h3>
+                        <p>Toilet bersih dan fasilitas kebersihan lain membuat pengunjung merasa betah berlama-lama.</p>
+                    </article>
+                </div>
+            </div>
+    </section>
+
+    </div>
+</section>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+        header {
+            background: #4B4E6D;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 2rem auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: .75rem;
+            text-align: left;
+        }
+        th {
+            background: #6C7A89;
+            color: white;
+        }
+        .event-title {
+            font-weight: bold;
+            color: #2C3E50;
+        }
+        .event-desc {
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Jadwal Kegiatan Literasi “Pustaka Kreatif”</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Hari</th>
+                <th>Waktu</th>
+                <th>Kegiatan</th>
+                <th>Deskripsi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td>16:00 – 17:30</td>
+                <td class="event-title">Klub Bacaan Anak</td>
+                <td class="event-desc">Cerita interaktif untuk anak usia 7–12 tahun.</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>19:00 – 21:00</td>
+                <td class="event-title">Diskusi Buku “Ruang Rasa”</td>
+                <td class="event-desc">Diskusi buku fiksi Indonesia bersama moderator.</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>15:00 – 17:00</td>
+                <td class="event-title">Workshop Menulis Cerpen</td>
+                <td class="event-desc">Belajar teknik menulis cerita pendek untuk pemula.</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>18:00 – 20:00</td>
+                <td class="event-title">Sesi Bercerita Dewasa</td>
+                <td class="event-desc">Berbagi cerita nyata oleh peserta, tema bebas.</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>16:30 – 18:00</td>
+                <td class="event-title">Literasi Digital</td>
+                <td class="event-desc">Belajar cara membaca dan menilai sumber di internet.</td>
+            </tr>
+            <tr>
+                <td>Sabtu</td>
+                <td>09:00 – 11:00</td>
+                <td class="event-title">Klub Puisi & Musik</td>
+                <td class="event-desc">Membaca puisi dengan iringan musik live.</td>
+            </tr>
+            <tr>
+                <td>Minggu</td>
+                <td>10:00 – 12:00</td>
+                <td class="event-title">Literasi Visual</td>
+                <td class="event-desc">Belajar cerita visual & ilustrasi komik.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+
+<main>
+    <section class="site-footer">
+        <div class="container">
+            <h2>Informasi Layanan</h2>
+            <p>Seputar operasional perpustakaan</p>
+            <a href="index.html#layanan" class="btn">
+                Kembali ke Beranda
+            </a>
+        </div>
+    </section>
+</main>
+ 
+</body>

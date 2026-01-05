@@ -1,0 +1,435 @@
+.hero {
+  min-height: 40vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url("image/fasilitas.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero h2,
+.hero p {
+  color: white;
+}
+
+.hero {
+  min-height: 40vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url("image/fasilitas.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero h2,
+.hero p {
+  color: white;
+}
+
+/* ================= RESET & BASE ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+/* ================= UTILITIES ================= */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section {
+    padding: 3rem 0;
+}
+
+.bg-light {
+    background-color: #f5f7fa;
+}
+
+/* ================= HEADER ================= */
+.site-header {
+    background-color: #2a3f5eda;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 700px;
+    gap: 1rem;
+    padding: 15px 20px;
+    
+}
+
+.branding {
+    width: 90%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo {
+    border-radius: 4px;
+}
+
+.tab-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.tab-menu a:hover {
+    background-color: #97a9c4c3;
+    border-radius: 5px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav-menu a:hover {
+    background-color: #c9ced5c3;
+    border-radius: 4px;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background-color: #cdd3de;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ================= GRID & CARD ================= */
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: rgb(151, 177, 187);
+    color: #ffffff;  /* Warna tulisan putih */
+    text-decoration: none;
+    font-size: 18px;                    /* Ukuran huruf */
+    font-weight: 600;                   /* Tebal huruf sedang */
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;   /* Efek halus saat hover */
+}
+
+.btn:hover {
+    background-color: #5d687b;
+}
+
+/* ================= FORM ================= */
+.login-form {
+    max-width: 400px;
+}
+
+.login-form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+/* ================= FOOTER ================= */
+.site-footer {
+    background-color: #1c2a39b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (min-width: 768px) {
+    .header-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        justify-content: flex-end;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* ===== LAYANAN (update) ===== */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Container header */
+.site-header {
+  background-color: #102131;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Judul situs */
+.site-title {
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+}
+
+/* Navigasi */
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+/* Link menu */
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 6px 8px;
+  transition: 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #ffeb3b; /* efek warna saat hover */
+  text-decoration: underline;
+}
+
+.section {
+    padding: 3rem 0;
+}
+.section a {
+    margin-bottom: 1rem;
+    color: #1f2933;
+}
+.bg-light {
+    background-color: #f5f7fa;
+}
+.services {
+    min-height: 30vh;
+    background:linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url("fasilitas.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: var(--clr-primary);
+}
+
+.service-item {
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    background: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.service-item h3 {
+    font-size: 1.3rem;
+    color: var(--clr-secondary);
+}
+
+.service-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn-kembali {
+  display: inline-block;              /* Agar bisa diberi padding */
+  padding: 12px 24px;                 /* Jarak isi ke pinggir */
+  background-color: #465a6f;          /* Warna kotak (bisa ganti sesuai kebutuhan) */
+  color: #fff;                        /* Warna tulisan putih */
+  text-decoration: none;              /* Hapus garis bawah */
+  font-size: 18px;                    /* Ukuran huruf */
+  font-weight: 600;                   /* Tebal huruf sedang */
+  border-radius: 8px;                 /* Sudut membulat */
+  transition: background 0.2s ease;   /* Efek halus saat hover */
+}
+
+.btn-kembali:hover {
+  background-color: #364857;          /* Warna berubah saat di-hover */
+}
+
+/* RESPONSIVE GRID SERVICES */
+@media (min-width: 600px) {
+    .services .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .services .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* default semua konten disembunyikan */
+.tab-content {
+  display: none;
+}
+
+/* tampilkan konten yang aktif */
+.tab-content:target {
+  display: block;
+}
+
+/* ini opsional untuk tampilan menu */
+.tab-menu a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgba(206, 211, 217, 0.527);
+}
+.tab-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Daftar Buku */
+.book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Item Buku */
+.book-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px; /* Jarak cover & info */
+    margin-bottom: 16px;
+}
+
+/* Cover Buku */
+.book-cover img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Info Buku */
+.book-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Metadata Buku */
+.book-title {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 600;
+    color: #222;
+}
+
+.book-author,
+.book-publisher,
+.book-year {
+    margin: 2px 0;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+/* Sinopsis */
+.book-synopsis {
+    margin-top: 6px;
+}
+
+.book-synopsis p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #000000;
+    line-height: 1.4;
+}
+
